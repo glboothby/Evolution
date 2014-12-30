@@ -1,0 +1,54 @@
+﻿body
+{
+	background-color:White;
+	width: 100%;
+	position: relative;
+}
+div#parentHolder, div#childHolder, div#evoHolder, div#predatorHolder
+{
+	width:25%;
+	float:left;
+}
+div#parentHolder > div, div#childHolder > div
+{
+	width:4.5em;
+	height:3em;
+	border:1px solid Black;
+	margin-top : 2em;
+	margin-left:1em;
+	background-color: Red;
+}
+div#childHolder > div
+{
+	display:none;
+}
+div > div > span
+{
+	display:inline-block;
+	color: Black;
+	background-color: rgba(255,255,255,0.5);
+	font-size: 8pt;
+}
+div > div > span:first-of-type
+{
+	margin-left: 0.2em;
+}
+span.seperator::after
+{
+	content: ',';
+	margin-right: 5px;
+}
+div#sliderHolder
+{
+	width: 100%;
+	position: relative;
+	clear: both;
+	display: block;
+}
+div.br
+{
+	width: 100%;
+	float: none;
+	clear: both;
+	height: 5px;
+}
