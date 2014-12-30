@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<!-- Mine -->
+<link rel="stylesheet" type="text/css" href="main.css?v=1.2" />
+<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<div id="sliderHolder">
+<div id="evoHolder">
+<label for="mPc">Chance of mutation</label>
+<input id="mPc" type="range" min="0" max="100" step="1" value="5" />
+<br />
+<label for="mDeg">Degree of mutation</label>
+<input id="mDeg" type="range" min="1" max="255" step="1" value="5" />
+<br />
+<label for="tSpan">Time between generations</label>
+<input id="tSpan" type="range" min="100" max="5000" step="100" value="1000" />
+</div>
+<div id="predatorHolder">
+<label for="predCol">Predator colour</label>
+<input id="predCol" type="color" />
+<br />
+<label for="predNum">Predator numbers</label>
+<input id="predNum" type="range" min="0" max="3" step="1" value="1" />
+</div>
+<div id="breedHolder">
+<label for="breedCol">Breed colour</label>
+<input id="breedCol" type="color" />
+<br />
+<label for="resetColour">Reset colour</label>
+<input id="resetColour" type="color" />
+</div>
+<div class="br"></div>
+</div>
+<br/>
+<div id="parentHolder">
+<div id="parent1">
+<span class="red"></span><span class="seperator">
+</span><span class="green"></span><span class="seperator">
+</span><span class="blue"></span>
+</div>
+<div id="parent2">
+<span class="red"></span><span class="seperator">
+</span><span class="green"></span><span class="seperator">
+</span><span class="blue"></span></div>
+<div id="reference" style="width:2em;height:2em;background-color:Red;">
+</div>
+</div>
+<div id="childHolder">
+<div id="child1">
+<span class="red"></span><span class="seperator">
+</span><span class="green"></span><span class="seperator">
+</span><span class="blue"></span></div>
+<div id="child2">
+<span class="red"></span><span class="seperator">
+</span><span class="green"></span><span class="seperator">
+</span><span class="blue"></span></div>
+<div id="child3">
+<span class="red"></span><span class="seperator">
+</span><span class="green"></span><span class="seperator">
+</span><span class="blue"></span></div>
+<div id="child4">
+<span class="red"></span><span class="seperator">
+</span><span class="green"></span><span class="seperator">
+</span><span class="blue"></span></div>
+<div id="child5">
+<span class="red"></span><span class="seperator">
+</span><span class="green"></span><span class="seperator">
+</span><span class="blue"></span></div>
+</div>
+</body>
+</html>
