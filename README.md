@@ -9,3 +9,5 @@ Predators will take out the new generation that most closely match their colour.
 From the remaining children the ones closest to the breed colour will go on to be the new parents.
 
 I have no formal education in evolution; this is how I think a simple model would work.
+
+See it in action at http://www.codehack.uk/Home/Evolution
